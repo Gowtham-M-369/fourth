@@ -21,6 +21,46 @@
 .custom-shape-divider-top-1615972197 .shape-fill {
     fill: #0D08FC;
 } */
+.App{
+    background: #272888;
+}
+/* =====================//wave====================== */
+
+.r2 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--Bay-of-Many);
+    padding: 4%;
+  }
+  
+  .r2Images {
+    display: flex;
+    align-items: center;
+  }
+  
+  .r2Images .person {
+    width: 40%;
+    transform: scaleX(-1);
+  }
+  
+  .r2Images .icon-placeholder {
+    align-self: flex-start;
+    width: 20%;
+  }
+  
+  .r2para { 
+    width: 45%;
+    color: var(--Athens-Gray);
+  }
+  
+  .r2para h1 {
+    letter-spacing: 2px;
+  }
+  
+  .r2 p {
+    line-height: 1.6;
+  }
+/*====================== //wave=================== */
 /*====================== //shapes=================== */
 .flex-containerr {
     display: flex;

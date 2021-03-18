@@ -3,6 +3,8 @@ import "./App.css"
 import Carousel from "react-elastic-carousel";
 import Item from "./Item";
 import image from "./download.png"
+import person from "./one.jpg"
+import iconPlaceholder from "./two.jpg"
 
 const breakPoints = [
   { width: 1, itemsToShow: 1 },
@@ -14,8 +16,8 @@ const breakPoints = [
 
 function App() {
   return (
-    <div className="App">
-      <div>
+    <div >
+      <div className="App">
       <div>
         <header className="Header">
           <h4>Awesome</h4>
@@ -29,6 +31,26 @@ function App() {
           </nav>
         </header>
       </div>
+      <div>
+      <div className="r2">
+        <div className="r2Images">
+          <img className="person" src={person} alt="person"/>
+          <img className="icon-placeholder" src={iconPlaceholder} alt="icon-placeholder"/>
+        </div>
+        <div className="r2para">
+          <h1>Hello! We are</h1>
+          <h1>Here To help.</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam massa turpis, semper fringilla tempor a, sollicitudin ut felis. In lobortis ullamcorper sapien efficitur sagittis. Nulla felis lacus, viverra quis nisi a, rhoncus laoreet ligula. Curabitur porta tellus magna, quis blandit risus gravida in. Pellentesque vehicula lorem eget euismod gravida. Aliquam accumsan purus sit amet libero mattis, a vulputate mauris rutrum. Sed id nulla nec risus placerat accumsan a nec metus. Morbi tincidunt molestie libero ac aliquet. Vestibulum congue nisi ac purus malesuada venenatis. Sed aliquam neque in ipsum vulputate, id pharetra quam bibendum. Nulla facilisi.
+          </p>
+        </div>
+      </div>
+      <svg style={{display: "block"}} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#272888" fill-opacity="1" d="M0,224L60,202.7C120,181,240,139,360,149.3C480,160,600,224,720,240C840,256,960,224,1080,197.3C1200,171,1320,149,1380,138.7L1440,128L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path>
+        <path fill="rgb(78, 4, 252)" fill-opacity="1" d="M0,224L60,202.7C120,181,240,139,360,149.3C480,160,600,224,720,240C840,256,960,224,1080,197.3C1200,171,1320,149,1380,138.7L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
+      </svg>
+    </div>
+
       </div>
      
       <div style={{backgroundColor:"rgb(72, 8, 248)",alignItems:"center"}} >
