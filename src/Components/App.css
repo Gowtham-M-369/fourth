@@ -51,6 +51,7 @@
   .r2para { 
     width: 45%;
     color: var(--Athens-Gray);
+    color: white;
   }
   
   .r2para h1 {
@@ -74,11 +75,12 @@ margin: 10px;
 font-size: 30px;
 }
   .up {
+      color:white;
       width: 0px;
       height: 0px;
       border-style: inset;
       border-width: 0px 150px 220.2px 150px;
-      border-color: transparent transparent gray transparent;
+      border-color: transparent transparent rgb(6, 1, 53) transparent;
       transform: rotate(360deg);
       -ms-transform: rotate(360deg);
       -moz-transform: rotate(360deg);
@@ -152,7 +154,7 @@ font-size: 30px;
   }
   
   input[type=submit] {
-    background-color: #4CAF50;
+    background-color:rgb(156, 4, 118);
     color: white;
     padding: 12px 20px;
     border: none;
@@ -162,7 +164,7 @@ font-size: 30px;
   }
   
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: rgb(156, 4, 118);
   }
   
   .container {
@@ -271,6 +273,8 @@ align-items: center;
 .Header{
     display: grid;
     grid-template-areas: "logo nav";
+    color:rgb(156, 4, 118) ;
+    
 }
 
 .App1 {
@@ -330,6 +334,8 @@ align-items: center;
     grid-template-columns: repeat(6,auto);
     align-items: center;
     justify-content: center;
+    color: white;
+    
     
 }
 .button1{
@@ -343,4 +349,8 @@ align-items: center;
     background-color: transparent;
     color: rgb(156, 4, 118);
     border:2px solid  rgb(156, 4, 118);
+}
+
+.float{
+    float: right;
 }

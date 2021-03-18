@@ -20,7 +20,7 @@ function App() {
       <div className="App">
       <div>
         <header className="Header">
-          <h4>Awesome</h4>
+          <h4 style={{fontSize:"30px"}}>Awesome</h4>
           <nav className="Nav">
             <p href="/">FEATURES</p>
             <p href="/">TESTIMONIALS</p>
@@ -54,41 +54,41 @@ function App() {
       </div>
      
       <div style={{backgroundColor:"rgb(72, 8, 248)",alignItems:"center"}} >
-      <h1 style={{textAlign:"center"}}>Feautures</h1>
+      <h1 style={{textAlign:"center",color:"white",padding:"20px"}}>Feautures</h1>
 <div >
 <div class="flex-containerr">
   <div><div class="up">
         <br/>
-        <p>AI</p>  
- <p>crem<br/>lpsum is <br/> simply dummy text <br/>of the pricing and <br/> typescripting industry</p>
+        <p style={{fontSize:"25px"}}>AI</p>  
+ <p style={{fontSize:"12px"}}>crem<br/>lpsum is <br/> simply dummy text <br/>of the pricing and <br/> typescripting industry</p>
       </div></div>
   <div style={{marginTop:"125px"}}> <div class="up1">
         <br/>
         <div class="rotate">
-        <p>AI</p>  
-         <p>crem<br/>lpsum is <br/> simply dummy text <br/>of the pricing and <br/> typescripting industry</p>
-        </div>
+        <p style={{fontSize:"25px"}}>Chatbot</p>  
+         <p style={{fontSize:"12px"}}>crem<br/>lpsum is <br/> simply dummy text <br/>of the pricing and <br/> typescripting industry</p>
+        </div>  
         
       </div></div>
   <div> <div class="up">
         <br/>
-        <p>AI</p>  
- <p>crem<br/>lpsum is <br/> simply dummy text <br/>of the pricing and <br/> typescripting industry</p>
+        <p style={{fontSize:"25px"}}>UX</p>  
+ <p style={{fontSize:"12px"}}>crem<br/>lpsum is <br/> simply dummy text <br/>of the pricing and <br/> typescripting industry</p>
       </div></div>  
 </div>
 <div style={{marginTop:"-30px"}}class="flex-containerr">
-  <div><p style={{fontSize:"20px",padding:"0px 0px 10px 200px"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+  <div><p style={{fontSize:"15px",padding:"0px 0px 50px 150px",color:"white",width:"900px"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
     labore et dolore magna aliqua. Viverra justo nec ultrices dui. Ullamcorper eget nulla facilisi etiam 
     dignissim diam quis. Sit amet justo donec enim diam vulputate ut pharetra. Tempor id eu nisl nunc mi 
     ipsum faucibus vitae. Pellentesque habitant morbi tristique senectus et netus et malesuada. Faucibus 
     pulvinar elementum integer enim neque. Euismod quis viverra nibh cras pulvinar.
   </p></div>
   
-  <div style={{marginTop:"-120px"}}><div class="up1">
+  <div style={{marginTop:"-80px"}}><div class="up1">
         <br/>
         <div class="rotate">
-        <p>AI</p>  
-         <p>crem<br/>lpsum is <br/> simply dummy text <br/>of the pricing and <br/> typescripting industry</p>
+        <p style={{fontSize:"25px"}}>Payment</p>  
+         <p style={{fontSize:"12px"}}>crem<br/>lpsum is <br/> simply dummy text <br/>of the pricing and <br/> typescripting industry</p>
         </div>
       </div></div>  
 </div>
@@ -127,7 +127,7 @@ function App() {
             pariatur ex incididunt dolore. Tempor aute esse magna Lorem Lorem 
             nulla ex non irure veniam sint. Elit sit aliquip commodo consequat do.
           </p>
-         <div style={{padding:"20px"}}><button style={{padding:"10px"}}>Read More</button></div>       
+         <div style={{padding:"20px"}}><button class="button2" style={{padding:"10px"}}>Read More ....</button></div>       
         </div>
         <div className="single-box">
           <div class="img-text">
@@ -138,7 +138,7 @@ function App() {
             pariatur ex incididunt dolore. Tempor aute esse magna Lorem Lorem 
             nulla ex non irure veniam sint. Elit sit aliquip commodo consequat do.
           </p>
-          <div style={{padding:"20px"}}><button style={{padding:"10px"}}>Read More</button></div>
+          <div style={{padding:"20px"}}><button class="button2" style={{padding:"10px"}}>Read More ....</button></div>
         </div>
         <div className="single-box">
           <div class="img-text">
@@ -148,7 +148,7 @@ function App() {
             pariatur ex incididunt dolore. Tempor aute esse magna Lorem Lorem 
             nulla ex non irure veniam sint. Elit sit aliquip commodo consequat do.
           </p>
-          <div style={{padding:"20px"}}><button style={{padding:"10px"}}>Read More</button></div>
+          <div class="float" style={{padding:"20px"}}><button class="button2" style={{padding:"10px"}}>Read More ....</button></div>
         </div>
       </div>
       </div>
