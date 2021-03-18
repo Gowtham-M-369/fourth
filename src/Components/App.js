@@ -16,6 +16,7 @@ function App() {
   return (
     <div className="App">
       <div>
+      <div>
         <header className="Header">
           <h4>Awesome</h4>
           <nav className="Nav">
@@ -28,13 +29,48 @@ function App() {
           </nav>
         </header>
       </div>
-      <div>
-      <div class="up">
+      </div>
+     
+      <div style={{backgroundColor:"rgb(72, 8, 248)",alignItems:"center"}} >
+      <h1 style={{textAlign:"center"}}>Feautures</h1>
+<div >
+<div class="flex-containerr">
+  <div><div class="up">
         <br/>
         <p>AI</p>  
-
-        <p>crem<br/>lpsum is <br/> simply dummy text <br/>of the pricing and <br/> typescripting industry</p>
-      </div>
+ <p>crem<br/>lpsum is <br/> simply dummy text <br/>of the pricing and <br/> typescripting industry</p>
+      </div></div>
+  <div style={{marginTop:"125px"}}> <div class="up1">
+        <br/>
+        <div class="rotate">
+        <p>AI</p>  
+         <p>crem<br/>lpsum is <br/> simply dummy text <br/>of the pricing and <br/> typescripting industry</p>
+        </div>
+        
+      </div></div>
+  <div> <div class="up">
+        <br/>
+        <p>AI</p>  
+ <p>crem<br/>lpsum is <br/> simply dummy text <br/>of the pricing and <br/> typescripting industry</p>
+      </div></div>  
+</div>
+<div style={{marginTop:"-30px"}}class="flex-containerr">
+  <div><p style={{fontSize:"20px",padding:"0px 0px 10px 200px"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+    labore et dolore magna aliqua. Viverra justo nec ultrices dui. Ullamcorper eget nulla facilisi etiam 
+    dignissim diam quis. Sit amet justo donec enim diam vulputate ut pharetra. Tempor id eu nisl nunc mi 
+    ipsum faucibus vitae. Pellentesque habitant morbi tristique senectus et netus et malesuada. Faucibus 
+    pulvinar elementum integer enim neque. Euismod quis viverra nibh cras pulvinar.
+  </p></div>
+  
+  <div style={{marginTop:"-120px"}}><div class="up1">
+        <br/>
+        <div class="rotate">
+        <p>AI</p>  
+         <p>crem<br/>lpsum is <br/> simply dummy text <br/>of the pricing and <br/> typescripting industry</p>
+        </div>
+      </div></div>  
+</div>
+</div>
       </div>
       <div style={{ backgroundColor: "#f1f1f1"}}>
       <h1 style={{ textAlign: "center" }}>Testimonials</h1>
