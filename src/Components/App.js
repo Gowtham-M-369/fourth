@@ -77,7 +77,7 @@ function App() {
       </div></div>  
 </div>
 <div style={{marginTop:"-30px"}}class="flex-containerr">
-  <div><p style={{fontSize:"15px",padding:"0px 0px 50px 150px",color:"white",width:"900px"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+  <div><p style={{fontSize:"15px",padding:"0px 0px 50px 150px",color:"white",width:"900px",lineHeight:"1.6"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
     labore et dolore magna aliqua. Viverra justo nec ultrices dui. Ullamcorper eget nulla facilisi etiam 
     dignissim diam quis. Sit amet justo donec enim diam vulputate ut pharetra. Tempor id eu nisl nunc mi 
     ipsum faucibus vitae. Pellentesque habitant morbi tristique senectus et netus et malesuada. Faucibus 
